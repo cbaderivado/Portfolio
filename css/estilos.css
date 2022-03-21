@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px;
+}
+#contact, #index, #projects {
+    background-image: url('../images/fondo.png');
+    background-size: auto;
+    background-repeat:repeat-y;
+}
+#projects h3{
+    font-size:16px;
+    border: red;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+#projects p{
+    font-size:14px;
+    
+}
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+nav .nav-link{
+    color: #282828;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+.btn{
+    border-radius: 16px;    
+}
+.form-control{
+
+    border-radius: 16px;
+}
+.btn-blanco{
+ background-color: white; 
+    color: #370a6d; 
+}
+.btn-blanco:hover{
+    background-color: #370a6d; 
+       color: white; 
+   }
+   textarea{
+       height: 150px;
+   }
+   .logos {
+    font-size: 30px;
+    text-align: center;
+}
+.btn-rojo{
+    background-color: white; 
+       color:red; 
+       display: inline-block
+   }
+.btn-rojo:hover{
+    background-color: red; 
+       color: white; 
+       
+   }
+   footer{
+       font-weight: 100;
+   }
+   footer a, main a{
+       color:rgb(16, 68, 238);
+   }
+   main a:hover{
+       color: red;
+       
+   }
+   .bloque-ws{
+    background-color: #370a6d ;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 20px;
+    position: fixed;
+    bottom: 0px;
+   }
+   .logo-ws{
+       color: white;
+   }
+.saludo{
+    border: solid rgb(201, 22, 224) 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#index img{
+ width: 250;
+ height: 500px;
+}
+
+#index img:hover{
+    width: 300; 
+    height: 550px;
+ }
+@media(max-width: 750px){
+
+    #contact, #index, #projects {
+        background-image: url('../images/fondo-sm.png');
+        background-size: auto;
+        background-repeat: round;
+    }
+    nav .active{
+        border:none;
+    }
+   
+}
