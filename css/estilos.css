@@ -21,6 +21,9 @@ html{
     width: 260px; 
     height: 510px;
  }
+ .logo-tr{
+     width:250px;
+ }
 #aboutme{
     background-image: url('../images/fondo-sm.png');
     background-size:cover;
