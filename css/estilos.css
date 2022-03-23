@@ -5,12 +5,25 @@ html{
 }
 #contact, #index, #projects{
     background-image: url('../images/fondo.png');
-    background-size: auto;
-    background-repeat:repeat-y;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
+.cohete img{
+ width: 250px;
+ height: 500px;
+ padding-left: 20px;
+ }
+.cohete{
+    height: 510px;
+}
+.cohete img:hover{
+    width: 260px; 
+    height: 510px;
+ }
 #aboutme{
     background-image: url('../images/fondo-sm.png');
-    background-size: auto;
+    background-size:cover;
     background-repeat:repeat-y;
 }
 #projects h3{
@@ -22,8 +35,7 @@ html{
 }
 #projects p{
     font-size:14px;
-    
-}
+ }
 nav .active{
     border: 1px solid #E20000;
     border-radius: 20px;
@@ -93,15 +105,12 @@ h1{
        color: white;
    }
 .saludo{
-    border: solid rgb(201, 22, 224) 1px;
+    border: solid rgb(31, 11, 209) 1px;
     border-radius: 20px;
     text-align: center;
     font-weight: bold;
+    padding-top: 15px;
     
-}
-#index img{
- width: 250;
- height: 500px;
 }
 #stack-tecnologico{
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
@@ -112,11 +121,6 @@ h1{
     color: whitesmoke !important ;
 }
 
-
-#index img:hover{
-    width: 300; 
-    height: 550px;
- }
  .foto img{
     width: 286; 
     height: 286px;
@@ -137,12 +141,10 @@ h1{
  #experiencia h2{
  background-color: white;
 }
-.logo-propio{
-    img
-}
+
 @media(max-width: 750px){
 
-    #contact, #index, #projects, #sobre-mi-intro{
+    #contact, #index, #projects, #aboutme{
         background-image: url('../images/fondo-sm.png');
         background-size: auto;
         background-repeat: round;
@@ -150,5 +152,4 @@ h1{
     nav .active{
         border:none;
     }
-   
 }
