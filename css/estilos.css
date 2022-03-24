@@ -145,12 +145,14 @@ h1{
  background-color: white;
 }
 
+    
+
 @media(max-width: 750px){
 
     #contact, #index, #projects, #aboutme{
         background-image: url('../images/fondo-sm.png');
         background-size: auto;
-        background-repeat: round;
+        background-repeat:round;
     }
     nav .active{
         border:none;
